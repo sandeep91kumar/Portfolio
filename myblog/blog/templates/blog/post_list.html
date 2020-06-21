@@ -13,7 +13,7 @@
             {% if post.image %}
                     <a href="#"><img class="card-img-top" style="width: auto; height: auto;" src="{{ post.image.url }}" alt="Card image cap"></a>
             {% endif %}
-            <p class="article-content">{{ post.content|truncatechars:150 }}</p>
+            <p class="article-content ">{{ post.content|truncatechars:150 }}</p>
           </div>
         </article>
     {% endfor %}
